@@ -1,11 +1,12 @@
 import React from 'react'
 import { AiFillFacebook, AiFillInstagram, AiFillYoutube, AiOutlineArrowUp } from 'react-icons/ai'
+import me from "../assets/saurav.png"
 
 const Footer = () => {
   return (
     <footer>
         <div>
-            <img src={"https://avatars.githubusercontent.com/u/25058652"} alt='Founder'/>
+            <img src={me} alt='Founder'/>
             <h2>Saurav Swaraj</h2>
             <p>Motivation is temporary</p>
         </div>
